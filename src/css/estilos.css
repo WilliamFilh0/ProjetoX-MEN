@@ -10,3 +10,12 @@ body{
   justify-content: center;
 }
 
+.selecao-de-personagens{
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  min-height: calc(100vh -152px);
+  justify-content: center;
+}
+
