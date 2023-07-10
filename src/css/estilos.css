@@ -4,3 +4,9 @@ body{
   color: #fff;
 }
 
+.cabecalho{
+  display: flex;
+  background-color: aqua; 
+  justify-content: center;
+}
+
