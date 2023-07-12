@@ -35,3 +35,11 @@ body{
   gap: 25px;
 
 }
+.selecao-de-personagens .personagens .titulo{
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #47f4ff;
+    width: 100%;
+    text-align: center;
+}
