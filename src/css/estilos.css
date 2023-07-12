@@ -19,3 +19,10 @@ body{
   justify-content: center;
 }
 
+.selecao-de-personagens .lista-de-personagens{
+  display: flex;
+  background-color: brown;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
