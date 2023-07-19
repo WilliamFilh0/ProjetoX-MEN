@@ -5,6 +5,8 @@ body{
 }
 
 
+
+
 .cabecalho{
   display: flex;
   justify-content: center;
@@ -63,4 +65,10 @@ body{
 
 }
 
+.personagem-selecionado .nome-personagem {
+  border-bottom: 2px solid #47f4ff;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+}
 
