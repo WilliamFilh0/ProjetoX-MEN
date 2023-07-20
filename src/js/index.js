@@ -7,6 +7,11 @@ personagens.forEach((personagem) => {
       personagemSelecionado.classList.remove('selecionado');
     }
 
+    personagem.classList.add('selecionado');
+
+    //seleciona o personagem grande
+    const personagemGrande = document.querySelector('.personagem-selecionado');
+
     
   });
 });
