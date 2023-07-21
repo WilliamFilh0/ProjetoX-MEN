@@ -12,6 +12,8 @@ personagens.forEach((personagem) => {
     //seleciona o personagem grande
     const personagemGrande = document.querySelector('.personagem-selecionado');
 
+    //pegar o elemento do personagem grande
+    const imagemPersonagemGrande = document.querySelector('.personagem-grande');
+
     
-  });
 });
