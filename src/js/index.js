@@ -15,5 +15,8 @@ personagens.forEach((personagem) => {
     //pegar o elemento do personagem grande
     const imagemPersonagemGrande = document.querySelector('.personagem-grande');
 
-    
+    //alterar a imagem do personagem grande
+    const idPersonagem = personagem.attributes.id.value;
+    imagemPersonagemGrande.src =  `./src/images/card-${idPersonagem}.jpg`
+  });
 });
