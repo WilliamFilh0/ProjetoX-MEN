@@ -18,5 +18,11 @@ personagens.forEach((personagem) => {
     //alterar a imagem do personagem grande
     const idPersonagem = personagem.attributes.id.value;
     imagemPersonagemGrande.src =  `./src/images/card-${idPersonagem}.jpg`
+
+    //Alterar o nome do personagem grande
+    const nomePersonagem = document.getElementById('nome-personagem')
+    
+
+
   });
 });
