@@ -21,8 +21,7 @@ personagens.forEach((personagem) => {
 
     //Alterar o nome do personagem grande
     const nomePersonagem = document.getElementById('nome-personagem')
-    
-
+    nomePersonagem.innerText = personagem.getAttribute('data-name');
 
   });
 });
